@@ -1,5 +1,6 @@
 #summary How to install the new, unofficial tokend module on Mac OS X
 
+*Waring: Use on Snow Leopard only!*
 After the installation of the tokend module, you can use your eID in Safari.
 This tokend module fixes some issues on Snow Leopard.
 
