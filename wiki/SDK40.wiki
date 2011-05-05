@@ -21,7 +21,7 @@ A testrelease of the 4.0 Eid Sdk will be posted later
 
 *Content*
 
-This 4.0 eidmw SDK will break radically with the older 2.x and 3.5 SDK API's.
+This 4.0 eidmw SDK will break radically with the older 2.x and 3.5 SDK API's.<BR>
 We will no longer define our own API, but in fact use the cryptografic token interface standard PKCS#11 v2.11 API.<BR>
 The PKCS#11 v2.11 specification can be found at [http://www.rsa.com/rsalabs/node.asp?id=2133 RSA ]
 
