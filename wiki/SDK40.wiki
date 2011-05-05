@@ -8,7 +8,8 @@ Version 4.0 of the Eid Middleware (the Eid Middleware contains libraries used by
 
 = Details =
 
-Downloads
+*Downloads*
+
 please check the download section (http://code.google.com/p/eid-mw/downloads/list) for the latest releases
 
 A testrelease of the 4.0 Eid Middleware package can be found here:
@@ -18,7 +19,8 @@ viewer: http://code.google.com/p/eid-mw/downloads/detail?name=BeidViewer-6767.ms
 
 A testrelease of the 4.0 Eid Sdk will be posted later
 
-Content
+*Content*
+
 This 4.0 eidmw SDK will break radically with the older 2.x and 3.5 SDK API's.
 We will no longer define our own API, but in fact use the cryptografic token interface standard PKCS#11 v2.11 API.
 The PKCS#11 v2.11 specification can be found on http://www.rsa.com/rsalabs/node.asp?id=2133
@@ -29,7 +31,8 @@ Some can be found already in our source section at trunk/sdk/Examples (http://co
 
 Automatic signatures checking of the data files or validating certificates will not be done within the PKCS#11 API. 
 
-Compatibility
+*Compatibility*
+
 Backwards compatibility with version 3.5 of the SDK is planned in the form of an extra downloadable package from the eid.belgium.be site.
 Backwards compatibility towards version 2.x of the SDK is planned to be dropped.
 Older eidmw releases will not be compatible with the 4.0 Eidmw SDK.
