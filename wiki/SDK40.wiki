@@ -12,7 +12,7 @@ Version 4.0 of the Eid Middleware (the Eid Middleware contains libraries used by
 
 please check the download section (http://code.google.com/p/eid-mw/downloads/list) for the latest releases
 
-A testrelease of the 4.0 Eid Middleware package can be found here:
+A testrelease of the 4.0 Eid Middleware package can be found here:<BR>
 QI: http://code.google.com/p/eid-mw/downloads/detail?name=eID-QuickInstaller%204.0.0-6930.exe&can=2&q=
 
 32bit msi: http://code.google.com/p/eid-mw/downloads/detail?name=BeidMW_32-6767.msi&can=2&q=
