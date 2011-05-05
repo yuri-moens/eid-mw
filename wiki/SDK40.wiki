@@ -14,7 +14,9 @@ please check the download section (http://code.google.com/p/eid-mw/downloads/lis
 
 A testrelease of the 4.0 Eid Middleware package can be found here:
 QI: http://code.google.com/p/eid-mw/downloads/detail?name=eID-QuickInstaller%204.0.0-6930.exe&can=2&q=
+
 32bit msi: http://code.google.com/p/eid-mw/downloads/detail?name=BeidMW_32-6767.msi&can=2&q=
+
 viewer: http://code.google.com/p/eid-mw/downloads/detail?name=BeidViewer-6767.msi&can=2&q= 
 
 A testrelease of the 4.0 Eid Sdk will be posted later
@@ -25,7 +27,8 @@ This 4.0 eidmw SDK will break radically with the older 2.x and 3.5 SDK API's.
 We will no longer define our own API, but in fact use the cryptografic token interface standard PKCS#11 v2.11 API.
 The PKCS#11 v2.11 specification can be found on http://www.rsa.com/rsalabs/node.asp?id=2133
 
-The PKCS#11 v2.11 API will allow you to check for detected cardreaders and card and will allow to retrieve data from the card (either as full files and certificates, or parsed data within these files e.g. first name), sign data with the card,.. . 
+The PKCS#11 v2.11 API will allow you to check for detected cardreaders and card and will allow to retrieve data from the card (either as full files and certificates, or parsed data within these files e.g. first name), sign data with the card,.. .
+
 Samples on how to use the new API will be provided in the SDK.
 Some can be found already in our source section at trunk/sdk/Examples (http://code.google.com/p/eid-mw/source/browse/#svn%2Ftrunk%2Fsdk%2FExamples%253Fstate%253Dclosed)
 
