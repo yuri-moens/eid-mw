@@ -1,4 +1,4 @@
-#summary How to use the eID on Chrome, Linux
+#summary How to enable the eID on Chrome (Linux)
 
 For SSL certificate managment, Google Chrome on Linux uses NSS. No UI is provided to install PKCS11 modules. NSS-tools come to help here.
 
