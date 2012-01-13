@@ -13,7 +13,7 @@ Version 4.0 of the Eid Middleware (the Eid Middleware contains libraries used by
 please check the [http://code.google.com/p/eid-mw/downloads/list download section] for the latest releases
 
 The Eid Middleware 4.0 has been released and can be found here:<BR>
-QI: [http://eid.belgium.be/nl/Hoe_installeer_je_de_eID/]<BR>
+[http://eid.belgium.be/nl/Hoe_installeer_je_de_eID/]<BR>
 
 A testrelease of the 4.0 Eid Sdk will be posted later
 
