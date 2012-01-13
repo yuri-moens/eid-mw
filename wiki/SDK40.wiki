@@ -12,10 +12,8 @@ Version 4.0 of the Eid Middleware (the Eid Middleware contains libraries used by
 
 please check the [http://code.google.com/p/eid-mw/downloads/list download section] for the latest releases
 
-A testrelease of the 4.0 Eid Middleware package can be found here:<BR>
-QI: [http://code.google.com/p/eid-mw/downloads/detail?name=eID-QuickInstaller%204.0.0-6930.exe&can=2&q= eID-QuickInstaller 4.0.0 6930]<BR>
-32bit msi: [http://code.google.com/p/eid-mw/downloads/detail?name=BeidMW_32-6767.msi&can=2&q= BeidMW_32 4.0.msi]<BR>
-viewer: [http://code.google.com/p/eid-mw/downloads/detail?name=BeidViewer-6767.msi&can=2&q= BeidViewer 4.0.msi]
+The Eid Middleware 4.0 has been released and can be found here:<BR>
+QI: [http://eid.belgium.be/nl/Hoe_installeer_je_de_eID/]<BR>
 
 A testrelease of the 4.0 Eid Sdk will be posted later
 
