@@ -8,9 +8,9 @@ Version 4.0 of the Eid Middleware (the Eid Middleware contains libraries used by
 
 = Details =
 
-*Downloads*
+==Downloads==
 
-please check the [http://code.google.com/p/eid-mw/downloads/list download section] for the latest releases
+Please check the [http://code.google.com/p/eid-mw/downloads/list download section] for the latest releases
 
 The Eid Middleware 4.0 has been released and can be found here:<BR>
 [http://eid.belgium.be/nl/Hoe_installeer_je_de_eID/]<BR>
@@ -19,7 +19,7 @@ A prerelease of the 4.0 Eid Sdk can be found here:<BR>
 http://code.google.com/p/eid-mw/downloads/detail?name=sdk40_9124.zip&can=2&q=
 
 
-*Content*
+==Content==
 
 This 4.0 eidmw SDK will break radically with the older 2.x and 3.5 SDK API's.<BR>
 We will no longer define our own API, but in fact use the cryptografic token interface standard PKCS#11 v2.11 API.<BR>
@@ -32,9 +32,22 @@ Some can be found already in our source section at [http://code.google.com/p/eid
 
 Automatic signatures checking of the data files or validating certificates will not be done within the PKCS#11 API. 
 
-*Compatibility*
+==Compatibility==
 
 Eidmw 4.0 is compatible with SDK 3.5. A warning message about SDK 3.5 deprecation is shown to the user. Future versions of the eid middleware may drop support for SDK 3.5.<br>
 Backwards compatibility with version 3.5 of the SDK is planned in the form of an extra downloadable package from the eid.belgium.be site.<BR>
 Backwards compatibility towards version 2.x of the SDK is planned to be dropped.<BR>
 Older eidmw releases will not be compatible with the 4.0 Eidmw SDK.<BR>
+
+==Java applet examples compatibility==
+
+SDK 3.5 contains an example Java applet. This applet accesses the eid middleware libraries installed on the client trough JNI libraries. 
+
+*SDK 4.0 will not provide Java examples*. Java has evolved over time and smartcard access is  now provided by the JVM. Applets can do smartcard operations right in the JVM. This fact removes the need for client side middleware dependencies.
+
+Fedict provides and maintains a pure Java eid applet. Around the "eid-applet", other applications are built to ease integration with web based applications. We suggest users of SDK 3.5 Java to move on to this platform.
+
+More information:
+  * eid-applet (http://code.google.com/p/eid-applet/)
+  * Identifcation and authentication: eid-idp (http://code.google.com/p/eid-idp)
+  * Digital signatures: eid-dss (http://code.google.com/p/eid-dss)
