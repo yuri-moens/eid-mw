@@ -34,6 +34,7 @@ Automatic signatures checking of the data files or validating certificates will 
 
 *Compatibility*
 
+Eidmw 4.0 is compatible with SDK 3.5. A warning message about SDK 3.5 deprecation is shown to the user. Future versions of the eid middleware may drop support for SDK 3.5.<br>
 Backwards compatibility with version 3.5 of the SDK is planned in the form of an extra downloadable package from the eid.belgium.be site.<BR>
 Backwards compatibility towards version 2.x of the SDK is planned to be dropped.<BR>
 Older eidmw releases will not be compatible with the 4.0 Eidmw SDK.<BR>
