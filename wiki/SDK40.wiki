@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Version 4.0 of the Eid Middleware (the Eid Middleware contains libraries used by the Eid SDK) and of the corresponding Eid SDK is currently under development.
+Version 4.0 of the eID Middleware (the eID Middleware contains libraries used by the eID SDK) and the corresponding eID MW SDK 4.0 have been released.
 
 
 = Details =
