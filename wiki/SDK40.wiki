@@ -16,7 +16,7 @@ The Eid Middleware 4.0 has been released and can be found here:<BR>
 [http://eid.belgium.be/nl/Hoe_installeer_je_de_eID/]<BR>
 
 The 4.0 Eid Sdk can be found here:<BR>
-http://code.google.com/p/eid-mw/downloads/detail?name=sdk40_1244.zip&can=2&q=
+http://eid-mw.googlecode.com/files/sdk40_1306.zip
 
 
 ==Content==
