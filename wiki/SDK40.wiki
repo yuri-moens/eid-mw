@@ -28,7 +28,7 @@ The PKCS#11 v2.11 specification can be found at [http://www.rsa.com/rsalabs/node
 The PKCS#11 v2.11 API will allow you to check for detected cardreaders and card and will allow to retrieve data from the card (either as full files and certificates, or parsed data within these files e.g. first name), sign data with the card,.. .
 
 Samples on how to use the new API will be provided in the SDK.<BR>
-Some can be found already in our source section at [https://code.google.com/p/eid-mw/source/browse/#svn%2Ftrunk%2Fdoc%2Fsdk%2Fexamples trunk/sdk/Examples]
+Some can be found already in our source section at [https://code.google.com/p/eid-mw/source/browse/#svn%2Ftrunk%2Fdoc%2Fsdk%2Fexamples trunk/doc/sdk/examples]
 
 Automatic signatures checking of the data files or validating certificates will not be done within the PKCS#11 API. 
 
