@@ -16,7 +16,17 @@ Open a terminal window and enter this:
 # make sure you are in your homedir
 cd
 modutil -dbdir sql:.pki/nssdb/ -add "Belgium eID" -libfile /usr/lib/libbeidpkcs11.so
-# in eid mw v 3.x.x (installed from the tarballs), the library path is /usr/local/lib/libbeidpkcs11.so
+# The path to the library depends on distribution and method of installation.
+# The above path is the correct one for 32-bit RPM-based distributions.
+# For other distributions or installation methods:
+# - When installed from the tarballs, the library path is
+#   /usr/local/lib/libbeidpkcs11.so
+# - When installing on Debian, Ubuntu, or one of their derivatives (with the 
+#   packages from eid.belgium.be), the library path is
+#   /usr/lib/x86_64-linux-gnu/libbeidpkcs11.so (for 64-bit linux), or
+#   /usr/lib/i386-linux-gnu/libbeidpkcs11.so (for 32-bit linux).
+# - When installing on 64-bit RPM-based distributions, the path is
+#   /usr/lib64/libbeidpkcs11.so
 
 # check if the library was successfully added
 modutil -dbdir sql:.pki/nssdb/ -list
