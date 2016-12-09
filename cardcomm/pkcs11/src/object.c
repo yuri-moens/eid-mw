@@ -333,7 +333,7 @@ CK_RV C_FindObjectsInit(CK_SESSION_HANDLE hSession,   /* the session's handle */
 		}
 		if((filesToCacheFlag != CACHED_DATA_TYPE_CARDDATA) && (filesToCacheFlag != CACHED_DATA_TYPE_RNCERT))
 		{
-			if ((pSession->bReadDataAllowed == P11_READDATA_ASK) & (eidmw_readpermission != P11_READDATA_ALWAYS))
+			if ((pSession->bReadDataAllowed == P11_READDATA_ASK) && (eidmw_readpermission != P11_READDATA_ALWAYS))
 			{
 				allowCardRead = AllowCardReading();
 				switch(allowCardRead)
